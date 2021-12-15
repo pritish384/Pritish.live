@@ -337,6 +337,7 @@ header .social-icon li a
 /* start source_code */
 #source_code
 	{
+	
 		padding-bottom: 80px;
 	}
 #source_code .col-md-3
@@ -345,7 +346,12 @@ header .social-icon li a
 	}
 	.source_code-thumb, 
 	.source_code-overlay {
+		border: 10px solid;
+  		border-image-slice: 1;
+		border-image-source: linear-gradient(to left, #e96443, #904e95);
+  		border-width: 5px;
 		max-width: 450px;
+
 	}
 #source_code .source_code-thumb
 	{
@@ -357,6 +363,7 @@ header .social-icon li a
 	{
 		background: #000000;
 		top: 0;
+		
 		left: 0;
 		right: 0;
 		bottom: 0;	
@@ -369,6 +376,7 @@ header .social-icon li a
 		margin-right: auto;
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
+
 	}
 #source_code .source_code-thumb .source_code-overlay h4
 	{
