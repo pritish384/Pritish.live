@@ -346,10 +346,9 @@ header .social-icon li a
 	}
 	.source_code-thumb, 
 	.source_code-overlay {
-		border: 10px solid;
-  		border-image-slice: 1;
-		border-image-source: linear-gradient(to left, #e96443, #904e95);
-  		border-width: 5px;
+		
+		
+  		
 		max-width: 450px;
 
 	}
